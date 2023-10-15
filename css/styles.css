@@ -286,9 +286,13 @@
                 height: 450px;
             }
             .container{
-                height: 59vh !important;
+             height: 59vh !important; 
+                /* height: fit-content; */
             }
-    
+           /* #confetti-wrapper{
+                height: 30vh !important;
+            }
+     */
         }
         
 
