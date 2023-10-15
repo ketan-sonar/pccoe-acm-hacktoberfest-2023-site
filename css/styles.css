@@ -79,6 +79,37 @@
             align-items: center;
             border-radius:10px;
         }
+        @media (max-width: 992px) {
+            .global-one-nav{
+            background-image: linear-gradient(62deg, #d3ae5a 0%, #1a150a 44%, #2f2307 66%, #d3ae5a 100%);
+            color: white;
+            height: 350px!important;
+            margin-bottom: 6rem !important;
+            display: flex; 
+            font-size: 4rem !important;
+            justify-content: center;
+            align-items: center;
+            border-radius:10px;
+
+    
+            }
+            #title{
+                text-align: center;
+            }
+
+
+            .title-img{
+                position: static; 
+                /* so that when it switches to tablet/ mobile size, it's position should be fixed */
+                
+                transform: rotate(0);
+                /* so that when it switches to tablet/mobile size, the image becomes straight */
+            }
+
+            .cover{
+                margin-top: 25px;
+            }
+        }
 
 
         .logo{
@@ -116,6 +147,11 @@
         .cover #logo2{
             margin-top: 25px;
         }
+
+        /* hactoberfest  */
+         .hacto-pccoe{
+              color: yellow;
+         }
 
 
 
@@ -232,12 +268,29 @@
         
             
         }
-        span:hover{
+        /* span:hover{
             font-size: 50px;
             font-weight: bold;
             color: #edea3e;
-        }
+        } */
 
+        /* intro video css for responsivness */
+        @media (max-width:992px){
+            .intro{
+                width:100% ;
+                margin-top: 4rem !important;
+    
+            }
+            video{
+                width: 730px;
+                height: 450px;
+            }
+            .container{
+                height: 59vh !important;
+            }
+    
+        }
+        
 
 
 
@@ -741,11 +794,11 @@
         
             
         }
-        span:hover{
+        /* span:hover{
             font-size: 50px;
             font-weight: bold;
             color: #edea3e;
-        }
+        } */
 
 
 
@@ -1349,12 +1402,7 @@
         
             
         }
-        span:hover{
-            font-size: 50px;
-            font-weight: bold;
-            color: #edea3e;
-        }
-
+       
 
 
         /* Schedule */
