@@ -428,7 +428,89 @@
   *:before, *:after {
     box-sizing: inherit;
   }
+  .certificate{
+    margin-left: -12rem;
+    width: 45rem;
+    height: 30rem;
+    margin-bottom: 0;
+  }
+
+  .certificate_container h2{
+    margin-left: -12rem;
+  }
+
+  @media screen and (max-width:992px){
+    .certificate{
+      width: 40rem;
+      height: 25rem;
+    }
+  }
+  .prizes_container{
+    display: flex;
+    
+    justify-content: space-around;
+    
+    margin-left: 15rem;
+   
+  }
   
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+
+
+
+
+
+.slider {
+	background: rgb(231, 229, 229);
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height:27rem;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 250px;
+  overflow: hidden!important;
+}
+	
+	.slide-track {
+		animation: scroll 20s linear infinite !important;
+    animation-delay: 0s !important;
+		display: flex;
+    margin-left: 4rem;
+		flex-direction:column;
+		width: calc(100px *4);
+    
+    
+	}
+  
+  @keyframes scroll {
+	0% { transform: translateY(0); }
+  
+	100% { transform: translateY(-100px)}
+}
+
+	
+	.slide {
+		height: 85px;
+		width: 100px;
+    margin-top: 3rem !important;
+	}
+
+
+  .slide img{
+       background-size: cover;
+       
+  }
+  .certificate:hover {
+    display: inline-block;
+    margin: 0 0.5rem;
+  margin-left:-12rem;
+    animation: swing; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
   .githubbtn{
     color: rgb(69, 153, 232);
     margin-top: 2rem;
@@ -461,6 +543,10 @@
 
   @media screen and (max-width: 768px) {
     
+    .projects_container{
+      grid-template-columns: 1fr;
+    }
+
     .hackcard {
       margin:12.5%;
       max-width: 75%; /* Allow cards to take the full width of the screen */
