@@ -14,14 +14,14 @@
             overflow-x: hidden;
         }
 
-        .container{
+        /* .container{
             /* padding: 3% 15% 7%;   */
             
-            width:100%;
+            /* width:100%;
             border-radius: 10px;
             margin-top: 70px;
-            
-        }
+             */
+        /* } */ */
 
         h1{
             font-weight: 700;
@@ -1773,5 +1773,21 @@
         .full-screen-poster img {
             max-width: 100%;
             max-height: 100%;
-        }
         
+        
+        }
+
+        @media (min-width:200px) and (max-width:557px){
+            .container{
+               
+                height: 59vh !important;
+            }
+          }
+
+        @media (min-width:558px) and (max-width:991px){
+            .container{
+                height: 89vh !important;
+            }
+        }
+
+    

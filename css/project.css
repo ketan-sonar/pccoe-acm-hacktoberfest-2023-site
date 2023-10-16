@@ -179,7 +179,7 @@
         img {
             max-width: 100%;
         }
-        .container {
+        .container1 {
             height: 100vh;
             width: 100%;
             background-image: url("http://html.medhati.com/trendy/assets/img/slider2.jpg");
@@ -849,4 +849,6 @@
                 text-align: left;
             }
         }
+        
+
         
