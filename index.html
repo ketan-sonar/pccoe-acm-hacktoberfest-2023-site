@@ -59,10 +59,18 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    
+
     <title>PCCOE-ACM - HacktoberFest-2023</title>
   </head>
 
   <body>
+    <section class="flash">
+      <div id="poster" class="full-screen-poster">
+        <img src="/images/hack.png" alt="Poster Image">
+    </div>
+    </section>
+
     <section id="title">
       <div class="container" id="container">
         <div id="confetti-wrapper">
@@ -170,7 +178,7 @@
 
              
               <li class="nav-item">
-                <a class="nav-link" data-aos="fade-down" href="https://drive.google.com/file/d/11qOzHtmDixPUWF8nBy19UYttbRanJSeU/view?usp=sharing" target="_blank"
+                <a class="nav-link" data-aos="fade-down" href="https://docs.google.com/document/d/13M1wJBw_555HU6Mpv4NAh-f9ky5oZOt172RkPRHpXqE/edit?usp=sharing" target="_blank"
                   ><button
                     type="button"
                     class="btn btn-primary"
@@ -184,6 +192,9 @@
             </ul>
           </div>
         </nav>
+
+        <!-- adding the flash message -->
+       
 
         <!-- Title -->
 
@@ -601,13 +612,20 @@ Git-Github hands-on workshop
       <h3 class="mt-3">© Copyright 2023 PCCOE-ACM HacktoberFest</h3>
     </footer>
 
+       <script>
 
+        // Wait for the page to load
+document.addEventListener("DOMContentLoaded", function () {
+    // Get the poster element
+    var poster = document.getElementById("poster");
 
+    // Set a timeout to hide the poster after 10 seconds
+    setTimeout(function () {
+        poster.style.display = "none";
+    }, 2000); // 5,000 milliseconds = 5 seconds
+});
 
-
-
-
-
+       </script>
       <!-- adding the script for animation -->
     <script>
       AOS.init();
