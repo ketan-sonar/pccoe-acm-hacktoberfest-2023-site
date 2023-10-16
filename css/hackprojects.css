@@ -416,7 +416,69 @@
   *:before, *:after {
     box-sizing: inherit;
   }
+  .certificate{
+    width: 45rem;
+    height: 30rem;
+    margin-bottom: 0;
+  }
+  .prizes_container{
+    display: flex;
+    
+    justify-content: space-around;
+    
+    margin-left: 15rem;
+   
+  }
   
+
+@mixin white-gradient {
+	background: linear-gradient(to right,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+}
+
+
+
+
+
+
+.slider {
+	background: rgb(231, 229, 229);
+	box-shadow: 0 10px 20px -5px rgba(0, 0, 0, .125);
+	height:27rem;
+	margin: auto;
+	overflow:hidden;
+	position: relative;
+	width: 250px;
+  overflow: hidden!important;
+}
+	
+	.slide-track {
+		animation: scroll 30s linear infinite;
+    animation-delay: 0s;
+		display: flex;
+		flex-direction:column;
+		width: calc(100px * 14);
+    overflow: hidden!important;
+    
+	}
+  
+  @keyframes scroll {
+	0% { transform: translateY(0); }
+	100% { transform: translateY(calc(-100px * 7))}
+}
+
+	
+	.slide {
+		height: 100px;
+		width: 250px;
+	}
+
+  .certificate:hover {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation: swing; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
   .githubbtn{
     color: rgb(69, 153, 232);
     margin: 4px 1.5 4px 0;
