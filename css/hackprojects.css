@@ -523,6 +523,10 @@
 
   @media screen and (max-width: 768px) {
     
+    .projects_container{
+      grid-template-columns: 1fr;
+    }
+
     .hackcard {
       margin:12.5%;
       max-width: 75%; /* Allow cards to take the full width of the screen */
