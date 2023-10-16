@@ -64,7 +64,7 @@
 
   <body>
     <section id="title">
-      <div class="container">
+      <div class="container" id="container">
         <div id="confetti-wrapper">
           <div class="confetti"></div>
           <div class="confetti"></div>
@@ -129,7 +129,7 @@
             data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent"
             aria-expanded="false"
-            aria-label="Toggle navigation"
+            aria-label="Toggle navigation" id="toggleButton"
           >
           <div class="toggler_button">
             <span class="navbar-toggler-icon icontoggle"></span>
@@ -663,20 +663,14 @@
       <h3 class="mt-3">© Copyright 2023 PCCOE-ACM HacktoberFest</h3>
     </footer>
 
-    <script>
-       const button = document.getElementsByClassName('navbar-toggler')[0];
-    const targetDiv = document.getElementsByClassName('container')[0];
-    
 
-    // Add a click event listener to the button
-    button.addEventListener('click', function() {
-      
-      targetDiv.style.height = "63vh";
-      
-    });
-    </script>
-    
-    <!-- adding the script for animation -->
+
+
+
+
+
+
+      <!-- adding the script for animation -->
     <script>
       AOS.init();
     </script>
