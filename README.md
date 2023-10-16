@@ -1,10 +1,12 @@
 <div align="center">
    <h1> Welcome to PCCOE-ACM Hacktoberfest 2023! 🎉</h1> 
-</div>
+   
+</div><img width="1349" alt="Screenshot 2023-10-15 at 3 22 21 PM" src="https://github.com/ketan-sonar/pccoe-acm-hacktoberfest-2023-site/assets/97255480/2f121d38-d979-426d-94ba-f3d050e9e975">
 
-<div align="center">
-    <img width="1322" alt="Screenshot 2023-10-14 at 8 06 28 AM" src="https://github.com/pccoe-acm/Pccoe-Hacktoberfest-2023/assets/31288352/11c7dafb-c7c9-4fde-892b-c1eb8b8f2a76">
-    <h1 style="margin-top:0px" align="center"> PCCOE - ACM | Hacktoberfest 2023 ✨🚀 </h1>
+
+
+
+   <h1 style="margin-top:0px" align="center"> PCCOE - ACM | Hacktoberfest 2023 ✨🚀 </h1>
 </div>
 
 <br>
@@ -13,7 +15,7 @@
         <img width="200" src="https://img.shields.io/badge/Hacktoberfest-2023-orange.svg" alt="Hacktoberfest'23">
     </a>
 </div>
----
+
 
 <div align="center">
     <a href="https://www.buymeacoffee.com/omgawande">
@@ -21,7 +23,7 @@
     </a>
 </div>
 
----
+
 
 
 
@@ -29,7 +31,7 @@
     Get ready for an exciting journey into the world of open source, tech challenges, and collaborative coding. Whether you're a beginner or an experienced developer, our event has something for everyone. Join us to make a meaningful contribution to the open-source community. ✨🚀
 </div>
 
----
+
 
 <h1 align="center">What Can You Contribute? 👩‍💻</h1>
 
@@ -91,16 +93,14 @@
 </div>
 
 
----
+
 
 <h1 align="center">Our Involvement in Notable Open Source Programs</h1>
 
 
 
----
 
 
----
 
 <h3 align='center'>Project Mentors/Maintainers</h3>
 
