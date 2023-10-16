@@ -63,25 +63,37 @@
   
   .grid1 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     grid-gap: 32px;
     position: relative;
     z-index: 1;
   }
+
+  .responsivness{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
   
-  .projects_container{
+  /* .projects_container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-left: 50px;
-  }
+  } */
   .hackcard {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: var(--background-color);
     box-shadow: 0px var(--card-box-shadow-1-y) var(--card-box-shadow-1-blur) var(--card-box-shadow-1), 0px var(--card-box-shadow-2-y) var(--card-box-shadow-2-blur) var(--card-box-shadow-2), 0 0 0 1px var(--card-border-color);
       border-radius: 2.5rem;
     width: 350px;
     height: 250px;
-    padding: 25px 0px 3.9rem 12px;
+    padding: 25px 12px 3.9rem 12px;
     cursor: pointer;
     position: relative;
     transition: box-shadow 0.25s;
@@ -481,7 +493,7 @@
   }
   .githubbtn{
     color: rgb(69, 153, 232);
-    margin: 4px 1.5 4px 0;
+    margin-top: 2rem;
     border-radius: 2rem;
     padding-right: 1rem;
     padding-left: 1rem;
@@ -492,9 +504,8 @@
   -webkit-backdrop-filter: blur( 1.5px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
-  margin-left: 2rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  
+  
   }
 
   .githubbtn:hover {
@@ -511,20 +522,7 @@
 
 
   @media screen and (max-width: 768px) {
-    /* .grid1 {
-      grid-template-columns: 1fr; /* Change to a single column layout */
     
-
-    .projects_container{
-      grid-template-columns: 1fr;
-    }
-    body{
-      width: 100vw;
-    }
-    
-   .hackcards{
-    margin: 0 auto;
-   }
     .hackcard {
       margin:12.5%;
       max-width: 75%; /* Allow cards to take the full width of the screen */
