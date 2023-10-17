@@ -21,8 +21,9 @@
             border-radius: 10px;
             margin-top: 70px;
              */
-        /* } */ */
+        /* } */ 
 
+        
         h1{
             font-weight: 700;
             font-size: 3.5rem;
@@ -287,11 +288,7 @@
                 width: 730px;
                 height: 450px;
             }
-            .container{
-             height: 59vh !important; 
             
-               
-            }
          
         }
         
@@ -1777,17 +1774,9 @@
         
         }
 
-        @media (min-width:200px) and (max-width:557px){
-            .container{
-               
-                height: 59vh !important;
-            }
-          }
-
-        @media (min-width:558px) and (max-width:991px){
-            .container{
-                height: 89vh !important;
-            }
+        .maincontainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
         }
-
-    
