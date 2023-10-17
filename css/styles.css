@@ -23,6 +23,10 @@
              */
         /* } */ 
 
+          .container{
+            margin-top: 0;
+          }
+
         
         h1{
             font-weight: 700;
@@ -602,9 +606,9 @@
             font-family: 'Comfortaa', cursive;
         }
 
-        .container-fluid{
+        /* .container-fluid{
             padding: 3% 15% 7%;  
-        }
+        } */
 
         h1{
             font-weight: 700;
@@ -1160,9 +1164,9 @@
             font-family: 'Comfortaa', cursive;
         }
 
-        .container-fluid{
+        /* .container-fluid{
             padding: 3% 15% 7%;  
-        }
+        } */
 
         /* adding the margin to the typewriter div for making it center */
         .typewriter{
@@ -1779,4 +1783,15 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+        }
+
+        .bts{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box2{
+            margin-left: 3.7rem;
         }
