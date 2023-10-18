@@ -1,4 +1,6 @@
-        html {
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+    
+    html {
             scroll-behavior: smooth;
                 
 
@@ -159,11 +161,16 @@
          .hacto-pccoe{
               color: yellow;
          }
+        
 
+         .register-btn{
+            font-family: 'Pixelify Sans', sans-serif !important;
+         }
 
 
         /* Register button */
-
+        
+      
         .register-button-top{
             margin: 5% 3% 5% 0;
             
@@ -182,6 +189,7 @@
             text-align: center;
             font-size: 30px;
             font-weight: bold;
+           
         }
 
         .stats::before{
