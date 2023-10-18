@@ -1,53 +1,43 @@
-// AOS.init();
-// const username = "Mastermind730";
-// const repository = "Pccoe-Hacktoberfest-2023";
+// // const fetch = require('node-fetch');
 
-// // Function to fetch repository information
-// async function fetchRepoInfo() {
-// try {
-// // Fetch repository details
-// const repoResponse = await fetch(`https://api.github.com/repos/${username}/${repository}`);
-// const repoData = await repoResponse.json();
+// async function getRepoInfo(orgName, repoName,component) {
+//   const apiUrl = `https://api.github.com/repos/${orgName}/${repoName}`;
 
-// // Fetch pull requests details
-// const pullRequestsResponse = await fetch(`https://api.github.com/repos/${username}/${repository}/pulls`);
-// const pullRequestsData = await pullRequestsResponse.json();
+//   try {
+//     const response = await fetch(apiUrl);
+//     const data = await response.json();
+//     const numberOfPullRequests = data.length;
 
-// // Log the number of forks and pull requests
-// let pull_requests=document.getElementById("pull_requests");
-// let no_of_forks=document.getElementById("no_of_forks");
+//     console.log(`Repository: ${orgName}/${repoName}`);
+//     console.log(`Pull Requests: ${data.numberOfPullRequests}`);
+//     console.log(`Forks: ${data.forks_count}`);
 
+//     // Get information about pull requests
+//     const pullRequestsUrl = `${apiUrl}/pulls`;
 
-// console.log(`Forks: ${repoData.forks_count}`);
-// console.log(`Pull Requests: ${pullRequestsData.length}`);
-// pull_requests.textContent=pullRequestsData.length;
-// // no_of_forks.textContent=repoData.forks_count;
-// console.log("Connected with the h1 tag and displaying data");
-// console.log(pull_requests.textContent);
-// } catch (error) {
-// console.error("Error fetching repository information:", error);
+//     const pullRequestsResponse = await fetch(pullRequestsUrl);
+//     const pullRequestsData = await pullRequestsResponse.json();
+//     let forks=document.getElementById(`${component}_forks`);
+//     let prs=document.getElementById(`${component}_prs`);
+//     let mprs=document.getElementById(`${component}_mprs`);
+    
+    
+//     // Filter and count merged pull requests
+//     let mergedPullRequests = pullRequestsData.filter(pr => pr.state === 'closed' && pr.merged_at);
+//     console.log(`Merged Pull Requests: ${mergedPullRequests.length}`);
+//     forks.innerHTML=data.forks_count;
+//     prs.innerHTML=data.numberOfPullRequests;
+//     mprs.innerHTML=data.mergedPullRequests;
+
+//   } catch (error) {
+//     console.error('Error:', error.message);
+//   }
 // }
-// }
 
-// // Call the function to fetch repository information
-// fetchRepoInfo();
-
-const fetch = require('node-fetch');
-
-async function getRepoInfo(orgName, repoName) {
-  const apiUrl = `https://api.github.com/repos/${orgName}/${repoName}`;
-
-  try {
-    const response = await fetch(apiUrl);
-    const data = await response.json();
-
-    console.log(`Repository: ${orgName}/${repoName}`);
-    console.log(`Pull Requests: ${data.pulls_url}`);
-    console.log(`Forks: ${data.forks_count}`);
-  } catch (error) {
-    console.error('Error:', error.message);
-  }
-}
-
-// Replace 'yourOrg' and 'yourRepo' with the actual organization and repository names
-getRepoInfo('PCCOE ACM Hacktoberfest 2023', 'yourRepo');
+// // Replace 'yourOrg' and 'yourRepo' with the actual organization and repository names
+// getRepoInfo('pccoe-acm-hacktoberfest-2023', 'animated-components',"animated");
+// getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Travelwebsite',"travelwebsite");
+// getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Data-Structures-and-Algorithms',"dsa");
+// getRepoInfo('pccoe-acm-hacktoberfest-2023', 'eSubmission-App',"esubmission");
+// getRepoInfo('pccoe-acm-hacktoberfest-2023', 'pccoeacm-website',"pcccoeacmweb");
+// getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Starbucks',"starbucks");
