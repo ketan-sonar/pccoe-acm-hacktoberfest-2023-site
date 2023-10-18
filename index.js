@@ -4,17 +4,17 @@ async function getRepoInfo(orgName, repoName,component) {
   try {
     const response = await fetch(apiUrl);
     const data = await response.json();
-    const numberOfPullRequests = data.length;
 
-    console.log(`Repository: ${orgName}/${repoName}`);
-    console.log(`Pull Requests: ${data.numberOfPullRequests}`);
-    console.log(`Forks: ${data.forks_count}`);
+    // console.log(`Repository: ${orgName}/${repoName}`);
+    // console.log(`Pull Requests: ${data.numberOfPullRequests}`);
+    // console.log(`Forks: ${data.forks_count}`);
 
     // Get information about pull requests
     const pullRequestsUrl = `${apiUrl}/pulls`;
 
     const pullRequestsResponse = await fetch(pullRequestsUrl);
     const pullRequestsData = await pullRequestsResponse.json();
+    console.log(pullRequestsData)
     let forks=document.getElementById(`${component}_forks`);
     let prs=document.getElementById(`${component}_prs`);
     let mprs=document.getElementById(`${component}_mprs`);
@@ -24,8 +24,8 @@ async function getRepoInfo(orgName, repoName,component) {
     let mergedPullRequests = pullRequestsData.filter(pr => pr.state === 'closed' && pr.merged_at);
     console.log(`Merged Pull Requests: ${mergedPullRequests.length}`);
     forks.innerHTML=data.forks_count;
-    prs.innerHTML=data.numberOfPullRequests;
-    mprs.innerHTML=data.mergedPullRequests;
+    prs.innerHTML=pullRequestsData.length;
+    mprs.innerHTML=mergedPullRequests.length;
 
   } catch (error) {
     console.error('Error:', error.message);
