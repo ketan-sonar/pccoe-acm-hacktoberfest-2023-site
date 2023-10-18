@@ -1,4 +1,5 @@
 .hackcards{
+  
     --background-color: #18181b;
     --text-color: #a1a1aa;
     --card-background-color: rgba(255, 255, 255, .015);
@@ -28,6 +29,7 @@
     --card-hover-icon-background-color: rgba(35, 170, 139, 0.1);
     --card-hover-icon-border-color: rgba(12, 226, 147, 0.2);
     --blur-opacity: 0.9;
+    
   }
   cards.light {
     --background-color: #fafafa;
@@ -83,6 +85,8 @@
     margin-left: 50px;
   } */
   .hackcard {
+    
+      
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -92,7 +96,7 @@
     box-shadow: 0px var(--card-box-shadow-1-y) var(--card-box-shadow-1-blur) var(--card-box-shadow-1), 0px var(--card-box-shadow-2-y) var(--card-box-shadow-2-blur) var(--card-box-shadow-2), 0 0 0 1px var(--card-border-color);
       border-radius: 2.5rem;
     width: 350px;
-    height: 250px;
+    height: max-content;
     padding: 25px 12px 3.9rem 12px;
     cursor: pointer;
     position: relative;
@@ -479,7 +483,17 @@ box-shadow: 0px 0px 25px 8px rgba(242,247,246,0.9);
 	width: 250px;
   overflow: hidden!important;
 }
-	
+	.ind_stats{
+    display: flex;
+    
+    justify-content: space-around;
+  }
+
+  .cont{
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
 	.slide-track {
 		animation: scroll 20s linear infinite !important;
     animation-delay: 0s !important;
@@ -553,6 +567,7 @@ box-shadow: 0px 0px 25px 8px rgba(242,247,246,0.9);
     }
 
     .hackcard {
+      
       margin:12.5%;
       max-width: 75%; /* Allow cards to take the full width of the screen */
       margin-bottom: 2rem; /* Add some spacing between the stacked cards */
