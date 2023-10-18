@@ -96,7 +96,7 @@
     box-shadow: 0px var(--card-box-shadow-1-y) var(--card-box-shadow-1-blur) var(--card-box-shadow-1), 0px var(--card-box-shadow-2-y) var(--card-box-shadow-2-blur) var(--card-box-shadow-2), 0 0 0 1px var(--card-border-color);
       border-radius: 2.5rem;
     width: 350px;
-    height: max-content;
+    height: 439px;
     padding: 25px 12px 3.9rem 12px;
     cursor: pointer;
     position: relative;
