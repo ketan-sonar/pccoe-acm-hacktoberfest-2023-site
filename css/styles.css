@@ -1,4 +1,6 @@
-        html {
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+    
+    html {
             scroll-behavior: smooth;
                 
 
@@ -21,8 +23,13 @@
             border-radius: 10px;
             margin-top: 70px;
              */
-        /* } */ */
+        /* } */ 
 
+          .container{
+            margin-top: 0;
+          }
+
+        
         h1{
             font-weight: 700;
             font-size: 3.5rem;
@@ -154,11 +161,16 @@
          .hacto-pccoe{
               color: yellow;
          }
+        
 
+         .register-btn{
+            font-family: 'Pixelify Sans', sans-serif !important;
+         }
 
 
         /* Register button */
-
+        
+      
         .register-button-top{
             margin: 5% 3% 5% 0;
             
@@ -177,6 +189,7 @@
             text-align: center;
             font-size: 30px;
             font-weight: bold;
+           
         }
 
         .stats::before{
@@ -287,11 +300,7 @@
                 width: 730px;
                 height: 450px;
             }
-            .container{
-             height: 59vh !important; 
             
-               
-            }
          
         }
         
@@ -605,9 +614,9 @@
             font-family: 'Comfortaa', cursive;
         }
 
-        .container-fluid{
+        /* .container-fluid{
             padding: 3% 15% 7%;  
-        }
+        } */
 
         h1{
             font-weight: 700;
@@ -1163,9 +1172,9 @@
             font-family: 'Comfortaa', cursive;
         }
 
-        .container-fluid{
+        /* .container-fluid{
             padding: 3% 15% 7%;  
-        }
+        } */
 
         /* adding the margin to the typewriter div for making it center */
         .typewriter{
@@ -1777,17 +1786,20 @@
         
         }
 
-        @media (min-width:200px) and (max-width:557px){
-            .container{
-               
-                height: 59vh !important;
-            }
-          }
-
-        @media (min-width:558px) and (max-width:991px){
-            .container{
-                height: 89vh !important;
-            }
+        .maincontainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
         }
 
-    
+        .bts{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .box2{
+            margin-left: 3.7rem;
+        }
