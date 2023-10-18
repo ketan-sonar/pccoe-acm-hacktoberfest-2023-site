@@ -23,9 +23,9 @@ async function getRepoInfo(orgName, repoName,component) {
     // Filter and count merged pull requests
     let mergedPullRequests = pullRequestsData.filter(pr => pr.state === 'closed' && pr.merged_at);
     console.log(`Merged Pull Requests: ${mergedPullRequests.length}`);
-    forks.innerHTML=data.forks_count;
-    prs.innerHTML=pullRequestsData.length;
-    mprs.innerHTML=mergedPullRequests.length;
+    forks.innerHTML = data.forks_count;
+    prs.innerHTML = pullRequestsData.length;
+    mprs.innerHTML = mergedPullRequests.length;
 
   } catch (error) {
     console.error('Error:', error.message);
