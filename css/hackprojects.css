@@ -484,6 +484,7 @@ box-shadow: 0px 0px 25px 8px rgba(242,247,246,0.9);
   overflow: hidden!important;
 }
 	.ind_stats{
+    margin-top: 3rem;
     display: flex;
     
     justify-content: space-around;
@@ -594,4 +595,9 @@ box-shadow: 0px 0px 25px 8px rgba(242,247,246,0.9);
     }
 
      
+  }
+
+  .githubbtn a{ 
+    margin-left: 1.9rem;
+    margin-right: 1.9rem;
   }
