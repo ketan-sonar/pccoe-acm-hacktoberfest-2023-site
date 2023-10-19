@@ -1803,3 +1803,16 @@
         .box2{
             margin-left: 3.7rem;
         }
+
+        .all{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            background-color: #0c0c0c;
+        }
+        .gdsc{
+            margin-left: 2rem;
+            margin-bottom: 4.5rem;
+        }
