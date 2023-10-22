@@ -1,834 +1,1105 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8" />
 
-    <meta
-      name="description"
-      content="Participate in PCCOE ACM Hacktober Fest 2023. Join the open-source celebration and contribute to exciting projects."
-    />
-    <meta
-      name="keywords"
-      content="PCCOE, ACM, Hacktober Fest, 2023, open-source, contribution , projects , ACM Student Chapter, pccoe-acm , acm-pccoe , pccoe2023opensource , gssoc , GitHub Repositories,Tech Projects , Pimpri Chinchwad College of Engineering , ACM Student Chapter Events , october-2023 ,hacktoberfest-pccoeacm , haacktoberfest23 , opensource , Hacktoberfest India"
-    />
-    <link rel="icon" type="image/png" href="images/hack.png" />
+      <meta
+        name="description"
+        content="Participate in PCCOE ACM Hacktober Fest 2023. Join the open-source celebration and contribute to exciting projects."
+      />
+      <meta
+        name="keywords"
+        content="PCCOE, ACM, Hacktober Fest, 2023, open-source, contribution , projects , ACM Student Chapter, pccoe-acm , acm-pccoe , pccoe2023opensource , gssoc , GitHub Repositories,Tech Projects , Pimpri Chinchwad College of Engineering , ACM Student Chapter Events , october-2023 ,hacktoberfest-pccoeacm , haacktoberfest23 , opensource , Hacktoberfest India"
+      />
+      <link rel="icon" type="image/png" href="images/hack.png" />
 
-    <!--Google fonts-->
-    <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!--Google fonts-->
+      <link
+        href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
-      crossorigin="anonymous"
-    />
-    <link
+      <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    /><script src="https://kit.fontawesome.com/e3d96d5b4e.js" crossorigin="anonymous"></script>
+    />
+      <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+        crossorigin="anonymous"
+      />
+      <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+      /><script src="https://kit.fontawesome.com/e3d96d5b4e.js" crossorigin="anonymous"></script>
 
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/project.css" />
-    
-
-
-    <!--Font Awesome-->
-    
-    <script
-      src="https://kit.fontawesome.com/01e7826994.js"
-      crossorigin="anonymous"
-    ></script>
-
-    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
-
-    <!--Bootstrap scripts-->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
-      crossorigin="anonymous"
-    ></script>
-
-
-    <!-- adding the animation -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <link rel="stylesheet" href="css/hackprojects.css" />
-
-    <script src="index.js" defer></script>
-
-    <title>Projects | PCCOE | ACM - HacktoberFest-2023</title>
-  </head>
-
-   
-  <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
-    <marquee class="text-white font-weight-bolder mb-3 " direction="left" style="font-size: large;" >  
-      ‼️ Registrations are started for Pccoe Acm Hacktoberfest 2023 &nbsp; |  ✨ Participate and win exciting goodies along with participation certificate!! &nbsp; |  Making you all ready for Upcoming GSOC - 2024 🚀 &nbsp; |
+      <link rel="stylesheet" href="css/styles.css" />
+      <link rel="stylesheet" href="css/project.css" />
       
-       </marquee>  
-    <section id="title">
-      <div class="container-fluid">
-        <div id="confetti-wrapper">
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-          <div class="confetti"></div>
-        </div>
-        <!-- Nav Bar -->
 
-        <nav class="navbar navbar-expand-lg navbar-dark">
-          <div class="logo">
-            <a href="index.html">
-              <img
-                src="images/ACM.png"
-                data-aos="fade-right"
-                data-aos-delay="1000"
-                data-aos-duration="3000"
-                width="100"
-              />
-              <span style="font-size: 1.3em; margin-right: 10px">
+
+      <!--Font Awesome-->
+      
+      <script
+        src="https://kit.fontawesome.com/01e7826994.js"
+        crossorigin="anonymous"
+      ></script>
+
+      <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
+
+      <!--Bootstrap scripts-->
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"
+      ></script>
+      <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"
+      ></script>
+
+
+      <!-- adding the animation -->
+      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <link rel="stylesheet" href="css/hackprojects.css" />
+
+      <script src="index.js" defer></script>
+
+      <title>Projects | PCCOE | ACM - HacktoberFest-2023</title>
+    </head>
+
+    
+    <body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;">
+      <marquee class="text-white font-weight-bolder mb-3 " direction="left" style="font-size: large;" >  
+        ‼️ Registrations are started for Pccoe Acm Hacktoberfest 2023 &nbsp; |  ✨ Participate and win exciting goodies along with participation certificate!! &nbsp; |  Making you all ready for Upcoming GSOC - 2024 🚀 &nbsp; |
+        
+        </marquee>  
+      <section id="title">
+        <div class="container-fluid">
+          <div id="confetti-wrapper">
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+            <div class="confetti"></div>
+          </div>
+          <!-- Nav Bar -->
+
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="logo">
+              <a href="index.html">
                 <img
-                  id="logo2"
-                  src="images/x.png"
-                  alt="Logo"
-                  width="50"
-                  style="margin-left: 3px; margin-left: auto"
-                  data-aos="zoom-in-up"
-                  data-aos-delay="1050"
-                  data-aos-duration="2050"
+                  src="images/ACM.png"
+                  data-aos="fade-right"
+                  data-aos-delay="1000"
+                  data-aos-duration="3000"
+                  width="100"
                 />
+                <span style="font-size: 1.3em; margin-right: 10px">
+                  <img
+                    id="logo2"
+                    src="images/x.png"
+                    alt="Logo"
+                    width="50"
+                    style="margin-left: 3px; margin-left: auto"
+                    data-aos="zoom-in-up"
+                    data-aos-delay="1050"
+                    data-aos-duration="2050"
+                  />
+                </span>
+                <img
+                  src="images/hf10_vert_fcd_cmyk.png"
+                  width="150"
+                  height="150"
+                  data-aos="fade-left"
+                  data-aos-delay="1000"
+                  data-aos-duration="3000"
+                />
+              </a>
+            </div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div
+              class="collapse h-50 mb-3 h-md-100 navbar-collapse global-one-nav"
+              id="navbarSupportedContent"
+            >
+              <ul class="navbar-nav mt-auto d-flex items-center justify-center">
+                <li class="nav-item">
+                  <a
+                    class="nav-link register-btn "
+                    href="index.html"
+                    target="_blank"
+                    data-aos=""
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link border:1px register-btn "
+                    href="https://hacktoberfest.com/participation/"
+                    target="_blank"
+                    data-aos=""
+                    >Participation</a
+                  >
+                </li>
+                <!-- <li class="nav-item">
+                  <a class="nav-link" data-aos="fade-down" href="project.html"
+                    >Projects</a
+                  >
+                </li> -->
+                <li class="nav-item">
+                  <a
+                    class="nav-link register-btn"
+                    data-aos="fade-down"
+                    href="https://drive.google.com/file/d/1gF-YRQKARvq_ZPT05OnJMiqN4-XkExqa/view?usp=sharing"
+                    target="_blank">Git Cheat Sheet</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link register-btn" data-aos="fade-down" href="#Certificate">Certificate</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <h1 class="text-center text-decoration-none text-capitalize">
+            <a class="text-white register-btn" href="project.html"
+              >Projects Available for Contribution
+            </a>
+          </h1>
+          <!-- Title -->
+        </div>
+      </section>
+
+      <!-- opportunities || projects area for the students -->
+
+      <section id="schedule">
+        <h2 class="text-white">Find your Area of Interest</h2>
+        <h4 class="text-white">Total Repositories : 10+</h4>
+      </section>
+
+      <!-- Project section starts -->
+
+      <div class="responsivness">
+        <div div class="hackcards">
+          <div class="grid1">
+            <div class="hackcard">
+              <span class="icon">
+                <!--      adding the icon here -->
               </span>
-              <img
-                src="images/hf10_vert_fcd_cmyk.png"
-                width="150"
-                height="150"
-                data-aos="fade-left"
-                data-aos-delay="1000"
-                data-aos-duration="3000"
-              />
-            </a>
+              <h2 class="text-white">Starbucks</h2>
+              <p>Learn about Starbucks</p>
+              <div class="shine"></div>
+              <div class="background">
+                <div class="tiles">
+                  <div class="tile tile-1"></div>
+                  <div class="tile tile-2"></div>
+                  <div class="tile tile-3"></div>
+                  <div class="tile tile-4"></div>
+
+                  <div class="tile tile-5"></div>
+                  <div class="tile tile-6"></div>
+                  <div class="tile tile-7"></div>
+                  <div class="tile tile-8"></div>
+
+                  <div class="tile tile-9"></div>
+                  <div class="tile tile-10"></div>
+                </div>
+
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+              </div>
+              <div class="githubbtns">
+                <a href="#">
+                  <button class="githubbtn">html</button>
+                </a>
+                <a href="#">
+                  <button class="githubbtn">css</button>
+                </a>
+              
+              </div>
+                
+              
+              <a href="https://github.com/pccoe-acm-hacktoberfest-2023/Starbucks">
+                <button class="githubbtn p-2 ">VIEW</button>
+              </a>
+              <div class="ind_stats">
+                <div class="forks cont">
+              <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+              <h3 class="text-white" id="starbucks_forks">00</h3>
+            </div>
+            <div class="pull cont">
+              <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+            <h3 class="text-white" id="starbucks_prs">00</h3>
           </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse h-50 mb-3 h-md-100 navbar-collapse global-one-nav"
-            id="navbarSupportedContent"
-          >
-            <ul class="navbar-nav mt-auto d-flex items-center justify-center">
-              <li class="nav-item">
-                <a
-                  class="nav-link register-btn "
-                  href="index.html"
-                  target="_blank"
-                  data-aos=""
-                  >Home</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  class="nav-link border:1px register-btn "
-                  href="https://hacktoberfest.com/participation/"
-                  target="_blank"
-                  data-aos=""
-                  >Participation</a
-                >
-              </li>
-              <!-- <li class="nav-item">
-                <a class="nav-link" data-aos="fade-down" href="project.html"
-                  >Projects</a
-                >
-              </li> -->
-              <li class="nav-item">
-                <a
-                  class="nav-link register-btn"
-                  data-aos="fade-down"
-                  href="https://drive.google.com/file/d/1gF-YRQKARvq_ZPT05OnJMiqN4-XkExqa/view?usp=sharing"
-                  target="_blank">Git Cheat Sheet</a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link register-btn" data-aos="fade-down" href="#Certificate">Certificate</a>
-              </li>
-            </ul>
+          <div class="merged cont">
+            <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+            <h3 class="text-white" id="starbucks_mprs">00</h3>
           </div>
-        </nav>
-        <h1 class="text-center text-decoration-none text-capitalize">
-          <a class="text-white register-btn" href="project.html"
-            >Projects Available for Contribution
-          </a>
-        </h1>
-        <!-- Title -->
-      </div>
-    </section>
+          </div>
+            </div>
+          </div>
+          <label class="day-night">
+            <input type="checkbox" checked />
+            <div></div>
+          </label>
+        </div>
+        <div class="hackcards">
+          <div class="grid1">
+            <div class="hackcard">
+              <span class="icon">
+                <!--      adding the icon here -->
+              </span>
+              <h3 class="text-white">PCCOE ACM Website</h3>
+              <p>
+                This repository is for contributions to the PCCOE ACM website.
+                This project is open to all members of the GitHub community.
+              </p>
+              <div class="shine"></div>
+              <div class="background">
+                <div class="tiles">
+                  <div class="tile tile-1"></div>
+                  <div class="tile tile-2"></div>
+                  <div class="tile tile-3"></div>
+                  <div class="tile tile-4"></div>
 
-    <!-- opportunities || projects area for the students -->
+                  <div class="tile tile-5"></div>
+                  <div class="tile tile-6"></div>
+                  <div class="tile tile-7"></div>
+                  <div class="tile tile-8"></div>
 
-    <section id="schedule">
-      <h2 class="text-white">Find your Area of Interest</h2>
-      <h4 class="text-white">Total Repositories : 06</h4>
-    </section>
+                  <div class="tile tile-9"></div>
+                  <div class="tile tile-10"></div>
+                </div>
 
-    <!-- Project section starts -->
-
-    <div class="responsivness">
-      <div div class="hackcards">
-        <div class="grid1">
-          <div class="hackcard">
-            <span class="icon">
-              <!--      adding the icon here -->
-            </span>
-            <h4>Starbucks</h4>
-            <p>Learn about Starbucks</p>
-            <div class="shine"></div>
-            <div class="background">
-              <div class="tiles">
-                <div class="tile tile-1"></div>
-                <div class="tile tile-2"></div>
-                <div class="tile tile-3"></div>
-                <div class="tile tile-4"></div>
-
-                <div class="tile tile-5"></div>
-                <div class="tile tile-6"></div>
-                <div class="tile tile-7"></div>
-                <div class="tile tile-8"></div>
-
-                <div class="tile tile-9"></div>
-                <div class="tile tile-10"></div>
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+                
               </div>
 
-              <div class="line line-1"></div>
-              <div class="line line-2"></div>
-              <div class="line line-3"></div>
-            </div>
-            <div class="githubbtns">
-              <a href="#">
-                <button class="githubbtn">html</button>
+              <div class="githubbtns">
+                <a href="#">
+                  <button class="githubbtn">html</button>
+                </a>
+                <a href="#">
+                  <button class="githubbtn">css</button>
+                </a>
+                <a href="#">
+                  <button class="githubbtn">JavaScript</button>
+                </a>
+              
+              </div>
+              <a
+                href="https://github.com/pccoe-acm-hacktoberfest-2023/pccoeacm-website"
+                target="_blank"
+              >
+                <button class="githubbtn p-2 ">VIEW</button>
               </a>
-              <a href="#">
-                <button class="githubbtn">css</button>
-              </a>
-             
+              <div class="ind_stats">
+                <div class="forks cont">
+              <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+              <h3 class="text-white" id="pcccoeacmweb_forks">00</h3>
             </div>
+            <div class="pull cont">
+              <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+            <h3 class="text-white" id="pcccoeacmweb_prs">00</h3>
+          </div>
+          <div class="merged cont">
+            <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+
+            <h3 class="text-white" id="pcccoeacmweb_mprs">00</h3>
+          </div>
+          </div>
+            </div>
+          </div>
+          <label class="day-night">
+            <input type="checkbox" checked />
+            <div></div>
+          </label>
+        </div>
+        <div class="hackcards">
+          <div class="grid1">
+            <div class="hackcard">
+              <span class="icon">
+                <!--      adding the icon here -->
+              </span>
+              <h3 class="text-white">Art-Circle-PCCOE</h3>
+              <p>
+                This project  displays that what type of events are there in art circle of PCCOE College along with it's objective and all.
+              </p>
+              <div class="shine"></div>
+              <div class="background">
+                <div class="tiles">
+                  <div class="tile tile-1"></div>
+                  <div class="tile tile-2"></div>
+                  <div class="tile tile-3"></div>
+                  <div class="tile tile-4"></div>
+
+                  <div class="tile tile-5"></div>
+                  <div class="tile tile-6"></div>
+                  <div class="tile tile-7"></div>
+                  <div class="tile tile-8"></div>
+
+                  <div class="tile tile-9"></div>
+                  <div class="tile tile-10"></div>
+                </div>
+
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+              </div>
+              <div class="githubbtns">
+                <a href="#">
+                  <button class="githubbtn">html</button>
+                </a>
+                <a href="#">
+                  <button class="githubbtn">css</button>
+                </a>
+              
+              </div>
+              <a
+                href="https://github.com/pccoe-acm-hacktoberfest-2023/Art_circle-PCCOE_Hacktoberfest"
+                target="_blank"
+              >
+                <button class="githubbtn p-2 ">VIEW</button>
+              </a>
+              <div class="ind_stats">
+                <div class="forks cont">
+              <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+              <h3 class="text-white" id="travelwebsite_forks">00</h3>
+            </div>
+            <div class="pull cont">
+              <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+            <h3 class="text-white" id="travelwebsite_prs">00</h3>
+          </div>
+          <div class="merged cont">
+            <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+
+            <h3 class="text-white" id="travelwebsite_mprs">00</h3>
+          </div>
+          </div>
+            </div>
+          </div>
+          <label class="day-night">
+            <input type="checkbox" checked />
+            <div></div>
+          </label>
+        </div>
+        <div class="hackcards">
+          <div class="grid1">
+            <div class="hackcard">
+              <span class="icon">
+                <!--      adding the icon here -->
+              </span>
+              <h2 class="text-white">eSubmission-App</h2>
+              <p>
+                "Streamline attendance and assignment management with our intuitive online
+                clearance sheet – the hassle-free solution for efficient
+                record-keeping."
+              </p>
+              <div class="shine"></div>
+              <div class="background">
+                <div class="tiles">
+                  <div class="tile tile-1"></div>
+                  <div class="tile tile-2"></div>
+                  <div class="tile tile-3"></div>
+                  <div class="tile tile-4"></div>
+
+                  <div class="tile tile-5"></div>
+                  <div class="tile tile-6"></div>
+                  <div class="tile tile-7"></div>
+                  <div class="tile tile-8"></div>
+
+                  <div class="tile tile-9"></div>
+                  <div class="tile tile-10"></div>
+                </div>
+
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+              </div>
+              <div class="githubbtns">
+                <a href="#">
+                  <button class="githubbtn">html</button>
+                </a>
+                <a href="#">
+                  <button class="githubbtn">css / bootstrap</button>
+                </a>
+                <a href="#">
+                  <button class="githubbtn">JavaScript</button>
+                </a>
                
-            
-            <a href="https://github.com/pccoe-acm-hacktoberfest-2023/Starbucks">
-              <button class="githubbtn p-2 ">VIEW</button>
-            </a>
-            <div class="ind_stats">
-              <div class="forks cont">
-            <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
-            <h3 class="text-white" id="starbucks_forks">00</h3>
-          </div>
-          <div class="pull cont">
-            <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
-          <h3 class="text-white" id="starbucks_prs">00</h3>
-        </div>
-        <div class="merged cont">
-          <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
-          <h3 class="text-white" id="starbucks_mprs">00</h3>
-        </div>
-        </div>
-          </div>
-        </div>
-        <label class="day-night">
-          <input type="checkbox" checked />
-          <div></div>
-        </label>
-      </div>
-      <div class="hackcards">
-        <div class="grid1">
-          <div class="hackcard">
-            <span class="icon">
-              <!--      adding the icon here -->
-            </span>
-            <h4>PCCOE ACM Website</h4>
-            <p>
-              This repository is for contributions to the PCCOE ACM website.
-              This project is open to all members of the GitHub community.
-            </p>
-            <div class="shine"></div>
-            <div class="background">
-              <div class="tiles">
-                <div class="tile tile-1"></div>
-                <div class="tile tile-2"></div>
-                <div class="tile tile-3"></div>
-                <div class="tile tile-4"></div>
-
-                <div class="tile tile-5"></div>
-                <div class="tile tile-6"></div>
-                <div class="tile tile-7"></div>
-                <div class="tile tile-8"></div>
-
-                <div class="tile tile-9"></div>
-                <div class="tile tile-10"></div>
-              </div>
-
-              <div class="line line-1"></div>
-              <div class="line line-2"></div>
-              <div class="line line-3"></div>
               
-            </div>
-
-            <div class="githubbtns">
-              <a href="#">
-                <button class="githubbtn">html</button>
-              </a>
-              <a href="#">
-                <button class="githubbtn">css</button>
-              </a>
-              <a href="#">
-                <button class="githubbtn">JavaScript</button>
-              </a>
-             
-            </div>
-            <a
-              href="https://github.com/pccoe-acm-hacktoberfest-2023/pccoeacm-website"
-              target="_blank"
-            >
-              <button class="githubbtn p-2 ">VIEW</button>
-            </a>
-            <div class="ind_stats">
-              <div class="forks cont">
-            <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
-            <h3 class="text-white" id="pcccoeacmweb_forks">00</h3>
-          </div>
-          <div class="pull cont">
-            <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
-          <h3 class="text-white" id="pcccoeacmweb_prs">00</h3>
-        </div>
-        <div class="merged cont">
-          <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
-
-          <h3 class="text-white" id="pcccoeacmweb_mprs">00</h3>
-        </div>
-        </div>
-          </div>
-        </div>
-        <label class="day-night">
-          <input type="checkbox" checked />
-          <div></div>
-        </label>
-      </div>
-      <div class="hackcards">
-        <div class="grid1">
-          <div class="hackcard">
-            <span class="icon">
-              <!--      adding the icon here -->
-            </span>
-            <h4>Travelwebsite</h4>
-            <p>
-              This website is Created using html and css only. This will help a
-              beginer to understand various html concpets like html tags, html
-              forms and a lot more.
-            </p>
-            <div class="shine"></div>
-            <div class="background">
-              <div class="tiles">
-                <div class="tile tile-1"></div>
-                <div class="tile tile-2"></div>
-                <div class="tile tile-3"></div>
-                <div class="tile tile-4"></div>
-
-                <div class="tile tile-5"></div>
-                <div class="tile tile-6"></div>
-                <div class="tile tile-7"></div>
-                <div class="tile tile-8"></div>
-
-                <div class="tile tile-9"></div>
-                <div class="tile tile-10"></div>
               </div>
-
-              <div class="line line-1"></div>
-              <div class="line line-2"></div>
-              <div class="line line-3"></div>
-            </div>
-            <div class="githubbtns">
-              <a href="#">
-                <button class="githubbtn">html</button>
+              <a
+                href="https://github.com/pccoe-acm-hacktoberfest-2023/eSubmission-App"
+                target="_blank"
+              >
+                <button class="githubbtn p-2 ">VIEW</button>
               </a>
-              <a href="#">
-                <button class="githubbtn">css</button>
-              </a>
-             
+              <div class="ind_stats">
+                <div class="forks cont">
+              <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+              <h3 class="text-white" id="esubmission_forks">00</h3>
             </div>
-            <a
-              href="https://github.com/pccoe-acm-hacktoberfest-2023/Travelwebsite"
-              target="_blank"
-            >
-              <button class="githubbtn p-2 ">VIEW</button>
-            </a>
-            <div class="ind_stats">
-              <div class="forks cont">
-            <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
-            <h3 class="text-white" id="travelwebsite_forks">00</h3>
+            <div class="pull cont">
+              <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+            <h3 class="text-white" id="esubmission_prs">00</h3>
           </div>
-          <div class="pull cont">
-            <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
-          <h3 class="text-white" id="travelwebsite_prs">00</h3>
-        </div>
-        <div class="merged cont">
-          <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+          <div class="merged cont">
+            <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
 
-          <h3 class="text-white" id="travelwebsite_mprs">00</h3>
-        </div>
-        </div>
+            <h3 class="text-white" id="esubmission_mprs">00</h3>
           </div>
+          </div>
+            </div>
+          </div>
+          <label class="day-night">
+            <input type="checkbox" checked />
+            <div></div>
+          </label>
         </div>
-        <label class="day-night">
-          <input type="checkbox" checked />
-          <div></div>
-        </label>
-      </div>
-      <div class="hackcards">
-        <div class="grid1">
-          <div class="hackcard">
-            <span class="icon">
-              <!--      adding the icon here -->
-            </span>
-            <h4>eSubmission-App</h4>
-            <p>
-              "Streamline attendance management with our intuitive online
-              clearance sheet – the hassle-free solution for efficient
-              record-keeping."
-            </p>
-            <div class="shine"></div>
-            <div class="background">
-              <div class="tiles">
-                <div class="tile tile-1"></div>
-                <div class="tile tile-2"></div>
-                <div class="tile tile-3"></div>
-                <div class="tile tile-4"></div>
+        <div class="hackcards">
+          <div class="grid1">
+            <div class="hackcard">
+              <span class="icon">
+                <!--      adding the icon here -->
+              </span>
+              <h3 class="text-white">Data-Structures-and-Algorithms</h3>
+              <p>
+                This repository is for solving problems using the concepts of Data
+                Structures in any language.
+              </p>
+              <div class="shine"></div>
+              <div class="background">
+                <div class="tiles">
+                  <div class="tile tile-1"></div>
+                  <div class="tile tile-2"></div>
+                  <div class="tile tile-3"></div>
+                  <div class="tile tile-4"></div>
 
-                <div class="tile tile-5"></div>
-                <div class="tile tile-6"></div>
-                <div class="tile tile-7"></div>
-                <div class="tile tile-8"></div>
+                  <div class="tile tile-5"></div>
+                  <div class="tile tile-6"></div>
+                  <div class="tile tile-7"></div>
+                  <div class="tile tile-8"></div>
 
-                <div class="tile tile-9"></div>
-                <div class="tile tile-10"></div>
+                  <div class="tile tile-9"></div>
+                  <div class="tile tile-10"></div>
+                </div>
+
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
               </div>
-
-              <div class="line line-1"></div>
-              <div class="line line-2"></div>
-              <div class="line line-3"></div>
-            </div>
-            <div class="githubbtns">
-              <a href="#">
-                <button class="githubbtn">html</button>
-              </a>
-              <a href="#">
-                <button class="githubbtn">css</button>
-              </a>
-              <a href="#">
-                <button class="githubbtn">JavaScript</button>
-              </a>
-              <a href="#">
-                <button class="githubbtn">bootstrap</button>
-              </a>
-             
-            </div>
-            <a
-              href="https://github.com/pccoe-acm-hacktoberfest-2023/eSubmission-App"
-              target="_blank"
-            >
-              <button class="githubbtn p-2 ">VIEW</button>
-            </a>
-            <div class="ind_stats">
-              <div class="forks cont">
-            <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
-            <h3 class="text-white" id="esubmission_forks">00</h3>
-          </div>
-          <div class="pull cont">
-            <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
-          <h3 class="text-white" id="esubmission_prs">00</h3>
-        </div>
-        <div class="merged cont">
-          <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
-
-          <h3 class="text-white" id="esubmission_mprs">00</h3>
-        </div>
-        </div>
-          </div>
-        </div>
-        <label class="day-night">
-          <input type="checkbox" checked />
-          <div></div>
-        </label>
-      </div>
-      <div class="hackcards">
-        <div class="grid1">
-          <div class="hackcard">
-            <span class="icon">
-              <!--      adding the icon here -->
-            </span>
-            <h4>Data-Structures-and-Algorithms</h4>
-            <p>
-              This repository is for solving problems using the concepts of Data
-              Structures in any language.
-            </p>
-            <div class="shine"></div>
-            <div class="background">
-              <div class="tiles">
-                <div class="tile tile-1"></div>
-                <div class="tile tile-2"></div>
-                <div class="tile tile-3"></div>
-                <div class="tile tile-4"></div>
-
-                <div class="tile tile-5"></div>
-                <div class="tile tile-6"></div>
-                <div class="tile tile-7"></div>
-                <div class="tile tile-8"></div>
-
-                <div class="tile tile-9"></div>
-                <div class="tile tile-10"></div>
-              </div>
-
-              <div class="line line-1"></div>
-              <div class="line line-2"></div>
-              <div class="line line-3"></div>
-            </div>
-            <div class="githubbtns">
-              <a href="#">
-                <button class="githubbtn">cpp</button>
-              </a>
-              <a href="#">
-                <button class="githubbtn">JavaScript</button>
-              </a>
-              <a href="#">
-                <button class="githubbtn">Etc</button>
-              </a>
-             
-            </div>
-            <a
-              href="https://github.com/pccoe-acm-hacktoberfest-2023/Data-Structures-and-Algorithms"
-              target="_blank"
-            >
-              <button class="githubbtn p-2">VIEW</button>
-            </a>
-            <div class="ind_stats">
-              <div class="forks cont">
-            <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
-            <h3 class="text-white" id="dsa_forks">00</h3>
-          </div>
-          <div class="pull cont">
-            <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
-          <h3 class="text-white" id="dsa_prs">00</h3>
-        </div>
-        <div class="merged cont">
-          <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
-
-          <h3 class="text-white" id="dsa_mprs">00</h3>
-        </div>
-        </div>
-          </div>
-        </div>
-        <label class="day-night">
-          <input type="checkbox" checked />
-          <div></div>
-        </label>
-      </div>
-      <div class="hackcards">
-        <div class="grid1">
-          <div class="hackcard">
-            <span class="icon">
-              <!--      adding the icon here -->
-            </span>
-            <h4>Animated Components</h4>
-            <p>
-              Create animated components using HTML, CSS, JS and get them
-              featured
-            </p>
-            <div class="shine"></div>
-            <div class="background">
-              <div class="tiles">
-                <div class="tile tile-1"></div>
-                <div class="tile tile-2"></div>
-                <div class="tile tile-3"></div>
-                <div class="tile tile-4"></div>
-
-                <div class="tile tile-5"></div>
-                <div class="tile tile-6"></div>
-                <div class="tile tile-7"></div>
-                <div class="tile tile-8"></div>
-
-                <div class="tile tile-9"></div>
-                <div class="tile tile-10"></div>
-              </div>
-
-              <div class="line line-1"></div>
-              <div class="line line-2"></div>
-              <div class="line line-3"></div>
-            </div>
-            <div class="githubbtns">
-              <a href="#">
-                <button class="githubbtn">html</button>
-              </a>
-              <a href="#">
-                <button class="githubbtn">css</button>
-              </a>
-             
-            </div>
-            <div class="buttons">
-            <a
-              href="https://github.com/pccoe-acm-hacktoberfest-2023/animated-components"
-              target="_blank"
-            >
-              <button class="githubbtn p-2 ">VIEW</button>
+              <div class="githubbtns">
+                <a href="#">
+                  <button class="githubbtn">Language of your choice</button>
+                </a>
+               
               
-            </a>
-            <div class="ind_stats">
-              <div class="forks cont">
-                <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
-                <h3 class="text-white" id="animated_forks">00</h3>
+              
+              </div>
+              <a
+                href="https://github.com/pccoe-acm-hacktoberfest-2023/Data-Structures-and-Algorithms"
+                target="_blank"
+              >
+                <button class="githubbtn p-2">VIEW</button>
+              </a>
+              <div class="ind_stats">
+                <div class="forks cont">
+              <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+              <h3 class="text-white" id="dsa_forks">00</h3>
+            </div>
+            <div class="pull cont">
+              <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+            <h3 class="text-white" id="dsa_prs">00</h3>
           </div>
-          <div class="pull cont">
-            <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
-          <h3 class="text-white" id="animated_prs">00</h3>
-        </div>
-        <div class="merged cont">
-          <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+          <div class="merged cont">
+            <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
 
-          <h3 class="text-white" id="animated_mprs">00</h3>
-        </div>
-        </div>
-            
-            
-        </div>
+            <h3 class="text-white" id="dsa_mprs">00</h3>
           </div>
           </div>
+            </div>
+          </div>
+          <label class="day-night">
+            <input type="checkbox" checked />
+            <div></div>
+          </label>
         </div>
-        <label class="day-night">
-          <input type="checkbox" checked />
-          <div></div>
-        </label>
+        <div class="hackcards">
+          <div class="grid1">
+            <div class="hackcard">
+              <span class="icon">
+                <!--      adding the icon here -->
+              </span>
+              <h3 class="text-white">Animated Components</h3>
+              <p>
+                Create animated components using HTML, CSS, JS and get them
+                featured
+              </p>
+              <div class="shine"></div>
+              <div class="background">
+                <div class="tiles">
+                  <div class="tile tile-1"></div>
+                  <div class="tile tile-2"></div>
+                  <div class="tile tile-3"></div>
+                  <div class="tile tile-4"></div>
+
+                  <div class="tile tile-5"></div>
+                  <div class="tile tile-6"></div>
+                  <div class="tile tile-7"></div>
+                  <div class="tile tile-8"></div>
+
+                  <div class="tile tile-9"></div>
+                  <div class="tile tile-10"></div>
+                </div>
+
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+              </div>
+              <div class="githubbtns">
+                <a href="#">
+                  <button class="githubbtn">html</button>
+                </a>
+                <a href="#">
+                  <button class="githubbtn">css</button>
+                </a>
+                <a href="#">
+                  <button class="githubbtn">JavaScript</button>
+                </a>
+              
+              </div>
+              <div class="buttons">
+              <a
+                href="https://github.com/pccoe-acm-hacktoberfest-2023/animated-components"
+                target="_blank"
+              >
+                <button class="githubbtn p-2 ">VIEW</button>
+                
+              </a>
+              <div class="ind_stats">
+                <div class="forks cont">
+                  <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+                  <h3 class="text-white" id="animated_forks">00</h3>
+            </div>
+            <div class="pull cont">
+              <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+            <h3 class="text-white" id="animated_prs">00</h3>
+          </div>
+          <div class="merged cont">
+            <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+
+            <h3 class="text-white" id="animated_mprs">00</h3>
+          </div>
+          </div>
+              
+              
+          </div>
+            </div>
+            </div>
+          </div>
+          <!-- <label class="day-night">
+            <input type="checkbox" checked />
+            <div></div>
+          </label> -->
+          <div class="hackcards">
+            <div class="grid1">
+              <div class="hackcard">
+                <span class="icon">
+                  <!--      adding the icon here -->
+                </span>
+                <h3 class="text-white">College Assingments</h3>
+                <p>
+                  A repository for beginners to contribute their projects specially your college Assingments which help your juniors and you as well .
+                </p>
+                <div class="shine"></div>
+                <div class="background">
+                  <div class="tiles">
+                    <div class="tile tile-1"></div>
+                    <div class="tile tile-2"></div>
+                    <div class="tile tile-3"></div>
+                    <div class="tile tile-4"></div>
+    
+                    <div class="tile tile-5"></div>
+                    <div class="tile tile-6"></div>
+                    <div class="tile tile-7"></div>
+                    <div class="tile tile-8"></div>
+    
+                    <div class="tile tile-9"></div>
+                    <div class="tile tile-10"></div>
+                  </div>
+    
+                  <div class="line line-1"></div>
+                  <div class="line line-2"></div>
+                  <div class="line line-3"></div>
+                </div>
+                <div class="githubbtns">
+                  <a href="#">
+                    <button class="githubbtn">c , c++ , java , python , javascript</button>
+                  </a>
+                
+                
+                </div>
+                <div class="buttons">
+                <a
+                  href="https://github.com/pccoe-acm-hacktoberfest-2023/beginner-projects"
+                  target="_blank"
+                >
+                  <button class="githubbtn p-2 ">VIEW</button>
+                  
+                </a>
+                <div class="ind_stats">
+                  <div class="forks cont">
+                    <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+                    <h3 class="text-white" id="animated_forks">00</h3>
+              </div>
+              <div class="pull cont">
+                <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+              <h3 class="text-white" id="animated_prs">00</h3>
+            </div>
+            <div class="merged cont">
+              <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+    
+              <h3 class="text-white" id="animated_mprs">00</h3>
+            </div>
+            </div>
+                
+                
+            </div>
+              </div>
+              </div>
+            </div>
+          <div class="hackcards">
+            <div class="grid1">
+              <div class="hackcard">
+                <span class="icon">
+                  <!--      adding the icon here -->
+                </span>
+                <h2 class="text-white" >Flash Chat</h2>
+                <p>
+                  Flash chat flutter app where users can communicate with each other with users friendly interface
+                </p>
+                <div class="shine"></div>
+                <div class="background">
+                  <div class="tiles">
+                    <div class="tile tile-1"></div>
+                    <div class="tile tile-2"></div>
+                    <div class="tile tile-3"></div>
+                    <div class="tile tile-4"></div>
+    
+                    <div class="tile tile-5"></div>
+                    <div class="tile tile-6"></div>
+                    <div class="tile tile-7"></div>
+                    <div class="tile tile-8"></div>
+    
+                    <div class="tile tile-9"></div>
+                    <div class="tile tile-10"></div>
+                  </div>
+    
+                  <div class="line line-1"></div>
+                  <div class="line line-2"></div>
+                  <div class="line line-3"></div>
+                </div>
+                <div class="githubbtns">
+                  <a href="#">
+                    <button class="githubbtn">dart</button>
+                  </a>
+                  <a href="#">
+                    <button class="githubbtn">flutter</button>
+                  </a>
+                
+                </div>
+                <div class="buttons">
+                <a
+                  href="https://github.com/pccoe-acm-hacktoberfest-2023/flash_chat"
+                  target="_blank"
+                >
+                  <button class="githubbtn p-2 ">VIEW</button>
+                  
+                </a>
+                <div class="ind_stats">
+                  <div class="forks cont">
+                    <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+                    <h3 class="text-white" id="animated_forks">00</h3>
+              </div>
+              <div class="pull cont">
+                <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+              <h3 class="text-white" id="animated_prs">00</h3>
+            </div>
+            <div class="merged cont">
+              <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+    
+              <h3 class="text-white" id="animated_mprs">00</h3>
+            </div>
+            </div>
+                
+                
+            </div>
+              </div>
+              </div>
+          </div>
+          <div class="hackcards">
+            <div class="grid1">
+              <div class="hackcard">
+                <span class="icon">
+                  <!--      adding the icon here -->
+                </span>
+                <h2 class="text-white">Flavour Find</h2>
+                <p>
+                  New Meal App which contains some recipes according to the categories.
+                </p>
+                <div class="shine"></div>
+                <div class="background">
+                  <div class="tiles">
+                    <div class="tile tile-1"></div>
+                    <div class="tile tile-2"></div>
+                    <div class="tile tile-3"></div>
+                    <div class="tile tile-4"></div>
+    
+                    <div class="tile tile-5"></div>
+                    <div class="tile tile-6"></div>
+                    <div class="tile tile-7"></div>
+                    <div class="tile tile-8"></div>
+    
+                    <div class="tile tile-9"></div>
+                    <div class="tile tile-10"></div>
+                  </div>
+    
+                  <div class="line line-1"></div>
+                  <div class="line line-2"></div>
+                  <div class="line line-3"></div>
+                </div>
+                <div class="githubbtns">
+                  <a href="#">
+                    <button class="githubbtn">flutter</button>
+                  </a>
+                  <a href="#">
+                    <button class="githubbtn">dart</button>
+                  </a>
+                
+                </div>
+                <div class="buttons">
+                <a
+                  href="https://github.com/pccoe-acm-hacktoberfest-2023/Flavor_Find"
+                  target="_blank"
+                >
+                  <button class="githubbtn p-2 ">VIEW</button>
+                  
+                </a>
+                <div class="ind_stats">
+                  <div class="forks cont">
+                    <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+                    <h3 class="text-white" id="animated_forks">00</h3>
+              </div>
+              <div class="pull cont">
+                <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+              <h3 class="text-white" id="animated_prs">00</h3>
+            </div>
+            <div class="merged cont">
+              <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+    
+              <h3 class="text-white" id="animated_mprs">00</h3>
+            </div>
+            </div>
+                
+                
+            </div>
+              </div>
+              </div>
+          </div>
+          <div class="hackcards">
+            <div class="grid1">
+              <div class="hackcard">
+                <span class="icon">
+                  <!--      adding the icon here -->
+                </span>
+                <h2 class="text-white">Restaurant-Website</h2>
+                <p>
+                 
+                </p>
+                <div class="shine"></div>
+                <div class="background">
+                  <div class="tiles">
+                    <div class="tile tile-1"></div>
+                    <div class="tile tile-2"></div>
+                    <div class="tile tile-3"></div>
+                    <div class="tile tile-4"></div>
+    
+                    <div class="tile tile-5"></div>
+                    <div class="tile tile-6"></div>
+                    <div class="tile tile-7"></div>
+                    <div class="tile tile-8"></div>
+    
+                    <div class="tile tile-9"></div>
+                    <div class="tile tile-10"></div>
+                  </div>
+    
+                  <div class="line line-1"></div>
+                  <div class="line line-2"></div>
+                  <div class="line line-3"></div>
+                </div>
+                <div class="githubbtns">
+                  <a href="#">
+                    <button class="githubbtn">html</button>
+                  </a>
+                  <a href="#">
+                    <button class="githubbtn">css</button>
+                  </a>
+                
+                </div>
+                <div class="buttons">
+                <a
+                  href="https://github.com/pccoe-acm-hacktoberfest-2023/Restaurant_website_HacktoberFest"
+                  target="_blank"
+                >
+                  <button class="githubbtn p-2 ">VIEW</button>
+                  
+                </a>
+                <div class="ind_stats">
+                  <div class="forks cont">
+                    <i class="fa-solid fa-code-fork fa-lg" style="color: #f0f2f5;"></i>
+                    <h3 class="text-white" id="animated_forks">00</h3>
+              </div>
+              <div class="pull cont">
+                <i class="fa-solid fa-code-pull-request fa-lg" style="color: #f0f2f5;"></i>
+              <h3 class="text-white" id="animated_prs">00</h3>
+            </div>
+            <div class="merged cont">
+              <i class="fa-solid fa-code-merge fa-lg" style="color: #f0f2f5;"></i>
+    
+              <h3 class="text-white" id="animated_mprs">00</h3>
+            </div>
+            </div>
+                
+                
+            </div>
+              </div>
+              </div>
+          </div>
+
+        </div>
+      
       </div>
+
+      <!-- Project ends -->
+
+    
+    
      
-    </div>
-
-    <!-- Project ends -->
-    <!-- Advantages of participation -->
-   
-    <!-- Advantage section ends here -->
-
-   
-    <section>
-      <h3 class="text-white text-center mt-5  text-primary ">Your contributions could earn you some fantastic rewards !</h3>
-      <h2 class="text-white global-one ">Participate and win these exciting goodies along with participation certificate!!</h2>
-  
-      <div class="prizes_container" id="Certificate" >
-        <div class="certificate_container">
-          <div class="certificate"><img src="images/Certificate.jpg" alt="certificate"></div>
-          <h2 class="text-white mt-2 ">Certificate</h2>
-        </div>
-         <div class="prize text-center ">
-             <div class="prize_container">
-              <img src="/images/prize.jpg" alt="">
-             </div>
-             <h2 class="text-center text-white " style=" margin-left: -12rem;" >Prizes</h2>
-          
+     <!-- Advantages of participation -->
+      <section>
+        <h3 class="text-white text-center mt-5  text-primary ">Your contributions could earn you some fantastic rewards !</h3>
+        <h2 class="text-white global-one ">Participate and win these exciting goodies along with participation certificate!!</h2>
+    
+        <div class="prizes_container" id="Certificate" >
+          <div class="certificate_container">
+            <div class="certificate"><img src="images/Certificate.jpg" alt="certificate"></div>
+            <h2 class="text-white mt-2 ">Certificate</h2>
           </div>
-          
-         </div>
-      </div>
-  
-    </section>
-     <!-- Advantage section ends here -->
-   
-    <section id="cta">
-      <h3 class="cta-quote">
-        <span class="yellow" style="font-size: 50px"> Open source </span>is
-        changing the world - one pull request at a time.
-      </h3>
-      <div class="typewriter">
-        <h2 class="text-center" style="color: #ecf32a">
-          Join the Open Source Revolution!
-        </h2>
-      </div>
+          <div class="prize text-center ">
+              <div class="prize_container">
+                <img src="/images/prize.jpg" alt="">
+              </div>
+              <h2 class="text-center text-white " style=" margin-left: -12rem;" >Prizes</h2>
+            
+            </div>
+            
+          </div>
+        </div>
+    
+      </section>
+      <!-- Advantage section ends here -->
+    
+      <section id="cta">
+        <h3 class="cta-quote">
+          <span class="yellow" style="font-size: 50px"> Open source </span>is
+          changing the world - one pull request at a time.
+        </h3>
+        <div class="typewriter">
+          <h2 class="text-center" style="color: #ecf32a">
+            Join the Open Source Revolution!
+          </h2>
+        </div>
 
-      <h3 class="cta-quote">
-        <span class="yellow">Presented By - </span>
-      </h3>
+        <h3 class="cta-quote">
+          <span class="yellow">Presented By - </span>
+        </h3>
 
-      <div class="logo mb-5">
-        <a href="index.html">
-          <img src="images/ACM.png" width="100" />
-          <span style="font-size: 1.3em; margin-right: 10px">
-            <img
-              id="logo2"
-              src="images/x.png"
-              alt="Logo"
-              width="80"
-              style="margin-left: 3px; margin-left: auto"
-            />
-          </span>
-          <img src="images/hf10_vert_fcd_cmyk.png" width="150" height="150" />
-        </a>
+        <div class="logo mb-5">
+          <a href="index.html">
+            <img src="images/ACM.png" width="100" />
+            <span style="font-size: 1.3em; margin-right: 10px">
+              <img
+                id="logo2"
+                src="images/x.png"
+                alt="Logo"
+                width="80"
+                style="margin-left: 3px; margin-left: auto"
+              />
+            </span>
+            <img src="images/hf10_vert_fcd_cmyk.png" width="150" height="150" />
+          </a>
+          <br />
+          <img src="images/sponsors.png" width="300" />
+        </div>
+      </section>
+
+      <!-- Global stats -->
+
+      <section id="global-stats">
+        <h3 class="global-stats-header mt-5 mb-3 global-one">
+          Global stats for PCCOE - ACM | Hacktoberfest 2023
+        </h3>
+        <div class="row ml-5">
+          <div class="global-stats-row col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h2>00</h2>
+            <p>CHALLENGE COMPLETIONS</p>
+          </div>
+
+          <div class="global-stats-row col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h2>00</h2>
+            <p>PULL REQUESTS OPENED</p>
+          </div>
+
+          <div class="global-stats-row col-lg-4">
+            <i class="icon fas fa-check-circle fa-4x"></i>
+            <h2>00</h2>
+            <p>PARTICIPATING REPOSITORIES</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Global stats ends -->
+
+      <!-- Footer -->
+
+      <footer id="footer" class="text-white">
+        <div class="logo mb-5" style="margin-left: 10px;" >
+          <a href="index.html">
+            <img src="images/ACM.png" width="100"  />
+            <span style="font-size: 1.3em; margin-right: 10px">
+              <img
+                id="logo2"
+                src="images/x.png"
+                alt="Logo"
+                width="50"
+                style="margin-left: 5px;"
+              />
+            </span>
+            <img src="images/hacto-name-logo.png"style="margin-left: -3px;" width="300" height="150" />
+          </a>
+        </div>
+        <a
+          class="mr-3"
+          href="https://www.linkedin.com/company/pccoe-acm-student-chapter/mycompany/"
+          target="_blank"
+          ><i class="social-icon fab fa-linkedin"></i
+        ></a>
+        <a class="mr-3" href="https://www.facebook.com/pccoe.acm" target="_blank">
+          <i class="social-icon fab fa-facebook"></i
+        ></a>
+        <a
+          class="mr-3"
+          class="mr-3"
+          href="https://twitter.com/pccoe_acm"
+          target="_blank"
+          ><i class="social-icon fab fa-twitter"></i
+        ></a>
+        <a
+          class="mr-3"
+          href="https://www.instagram.com/pccoeacm/?hl=en"
+          target="_blank"
+        >
+          <i class="social-icon fab fa-instagram"></i
+        ></a>
+        <a class="mr-3" href="mailto: pccoeacm@gmail.com" target="_blank"
+          ><i class="social-icon fas fa-envelope"></i
+        ></a>
         <br />
-        <img src="images/sponsors.png" width="300" />
-      </div>
-    </section>
+        <h3 class="mt-3">© Copyright 2023 PCCOE-ACM HacktoberFest</h3>
+        <h5 class="mt-3 register-btn ">Designed with ❤️ by Webmasters ACM Student Chapter Pccoe , Pune</h5>
+      </footer>
 
-    <!-- Global stats -->
+      <script>
+        // Dark & Light toggle
 
-    <section id="global-stats">
-      <h3 class="global-stats-header mt-5 mb-3 global-one">
-        Global stats for PCCOE - ACM | Hacktoberfest 2023
-      </h3>
-      <div class="row ml-5">
-        <div class="global-stats-row col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h2>00</h2>
-          <p>CHALLENGE COMPLETIONS</p>
-        </div>
+        document
+          .querySelector(".day-night input")
+          .addEventListener("change", () => {
+            document.querySelector("body").classList.add("toggle");
+            setTimeout(() => {
+              document.querySelector("body").classList.toggle("light");
 
-        <div class="global-stats-row col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h2>00</h2>
-          <p>PULL REQUESTS OPENED</p>
-        </div>
+              setTimeout(
+                () => document.querySelector("body").classList.remove("toggle"),
+                10
+              );
+            }, 5);
+          });
+      </script>
 
-        <div class="global-stats-row col-lg-4">
-          <i class="icon fas fa-check-circle fa-4x"></i>
-          <h2>00</h2>
-          <p>PARTICIPATING REPOSITORIES</p>
-        </div>
-      </div>
-    </section>
+      <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
 
-    <!-- Global stats ends -->
-    <!-- Footer -->
-
-    <footer id="footer" class="text-white">
-      <div class="logo mb-5" style="margin-left: 10px;" >
-        <a href="index.html">
-          <img src="images/ACM.png" width="100"  />
-          <span style="font-size: 1.3em; margin-right: 10px">
-            <img
-              id="logo2"
-              src="images/x.png"
-              alt="Logo"
-              width="50"
-              style="margin-left: 5px;"
-            />
-          </span>
-          <img src="images/hacto-name-logo.png"style="margin-left: -3px;" width="300" height="150" />
-        </a>
-      </div>
-      <a
-        class="mr-3"
-        href="https://www.linkedin.com/company/pccoe-acm-student-chapter/mycompany/"
-        target="_blank"
-        ><i class="social-icon fab fa-linkedin"></i
-      ></a>
-      <a class="mr-3" href="https://www.facebook.com/pccoe.acm" target="_blank">
-        <i class="social-icon fab fa-facebook"></i
-      ></a>
-      <a
-        class="mr-3"
-        class="mr-3"
-        href="https://twitter.com/pccoe_acm"
-        target="_blank"
-        ><i class="social-icon fab fa-twitter"></i
-      ></a>
-      <a
-        class="mr-3"
-        href="https://www.instagram.com/pccoeacm/?hl=en"
-        target="_blank"
-      >
-        <i class="social-icon fab fa-instagram"></i
-      ></a>
-      <a class="mr-3" href="mailto: pccoeacm@gmail.com" target="_blank"
-        ><i class="social-icon fas fa-envelope"></i
-      ></a>
-      <br />
-      <h3 class="mt-3">© Copyright 2023 PCCOE-ACM HacktoberFest</h3>
-      <h5 class="mt-3 register-btn ">Designed with ❤️ by Webmasters ACM Student Chapter Pccoe , Pune</h5>
-    </footer>
-
-    <script>
-      // Dark & Light toggle
-
-      document
-        .querySelector(".day-night input")
-        .addEventListener("change", () => {
-          document.querySelector("body").classList.add("toggle");
-          setTimeout(() => {
-            document.querySelector("body").classList.toggle("light");
-
-            setTimeout(
-              () => document.querySelector("body").classList.remove("toggle"),
-              10
-            );
-          }, 5);
-        });
-    </script>
-
-    <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
-
-    <!-- adding the script for animation -->
-    <script>
-      AOS.init();
-    </script>
-  </body>
-</html>
+      <!-- adding the script for animation -->
+      <script>
+        AOS.init();
+      </script>
+    </body>
+  </html>
