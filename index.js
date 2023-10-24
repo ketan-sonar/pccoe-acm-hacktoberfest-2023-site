@@ -43,6 +43,7 @@ async function getOrgInfo(orgName) {
       let totalPullRequests = 0;
       let totalMergedPullRequests = 0;
       let count=0;
+
       for (const repo of reposData) {
         totalForks += repo.forks_count;
         count++;
@@ -50,6 +51,19 @@ async function getOrgInfo(orgName) {
         const pullRequestsUrl = `${apiUrl}/${repo.name}/pulls`;
         const pullRequestsResponse = await fetch(pullRequestsUrl);
         const pullRequestsData = await pullRequestsResponse.json();
+
+      
+      for (const repo of reposData) {
+        const apiUrl2=`https://api.github.com/repos/${orgName}/${repo.name}`
+        totalForks += repo.forks_count;
+        count++;
+        // Get information about pull requests for each repository
+        console.log(repo)
+        const pullRequestsUrl = `${apiUrl2}/pulls`;
+        const pullRequestsResponse = await fetch(pullRequestsUrl);
+        const pullRequestsData = await pullRequestsResponse.json();
+        console.log(pullRequestsData);
+
   
         totalPullRequests += pullRequestsData.length;
   
@@ -71,9 +85,10 @@ async function getOrgInfo(orgName) {
     }
   }
   
+
 // Replace 'yourOrg' and 'yourRepo' with the actual organization and repository names
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'animated-components',"animated");
-getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Travelwebsite',"travelwebsite");
+// getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Travelwebsite',"travelwebsite");
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Data-Structures-and-Algorithms',"dsa");
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'eSubmission-App',"esubmission");
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'pccoeacm-website',"pcccoeacmweb");
@@ -83,5 +98,10 @@ getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Starbucks',"starbucks");
 
   
   // Replace 'yourOrg' with the actual organization name
+
   getOrgInfo('pccoe-acm-hacktoberfest-2023');
+
+  getOrgInfo('pccoe-acm-hacktoberfest-2023')
+  // getOrgInfo()
+
   
