@@ -27,6 +27,14 @@ body {
   margin-top: 0;
 }
 
+.gsoc-btn{
+   border:2px solid #0a1f3a;
+
+}
+.gsoc-btn:hover{
+    background-color: #5290e0;
+    color:white;
+}
 
 h1 {
   font-weight: 700;
