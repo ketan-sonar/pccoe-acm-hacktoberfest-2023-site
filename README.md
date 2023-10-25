@@ -95,7 +95,7 @@
 
 
 
-<h1 align="center">Our Involvement in Notable Open Source Programs</h1>
+
 
 
 
@@ -105,9 +105,9 @@
 <h3 align='center'>Project Mentors/Maintainers</h3>
 
 <table align='center'>
-    <td><a href="#"><sub><b>Your Mentor 1</b></sub></a></td>
-    <td align="center"><a href="#"><sub align="bottom"><b>Your Mentor 2</b></sub></a></td>
-    <td align="center"><a href="#"><sub align="bottom"><b>Your Mentor 3</b></sub></a></td>
+    <td><a href="https://github.com/Adityalad-25" target="_blank" ><sub><b>Aditya Lad</b></sub></a></td>
+    <td align="center"><a href="https://github.com/surajtade"><sub align="bottom"><b>Suraj Tade</b></sub></a></td>
+    <td align="center"><a href="https://github.com/Yash-Waghmare"><sub align="bottom"><b>Yash Waghmare</b></sub></a></td>
 </table>
 
 ---
