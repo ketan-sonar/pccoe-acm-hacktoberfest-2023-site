@@ -80,7 +80,7 @@ getRepoInfo('pccoe-acm-hacktoberfest-2023', 'GDSC_calculator', "calculator");
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'GDSC_Insta_Bot', "insta");
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'GDSC_tic_tac_toe', "tic");
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'GDSC_ecommerce_istop_dummywebsite', "ecommerce");
-getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Sorting_Visualizer', "sort");
+getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Sorting_Visualizer', "sorty");
 
 
 
