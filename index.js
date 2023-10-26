@@ -72,6 +72,22 @@ getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Data-Structures-and-Algorithms', "d
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'eSubmission-App', "esubmission");
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'pccoeacm-website', "pcccoeacmweb");
 getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Starbucks', "starbucks");
+getRepoInfo('pccoe-acm-hacktoberfest-2023', 'flash_chat', "flash");
+getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Flavor_Find', "flavor");
+getRepoInfo('pccoe-acm-hacktoberfest-2023', 'Restaurant_website_HacktoberFest', "restaurant");
+getRepoInfo('pccoe-acm-hacktoberfest-2023', 'GDSC_TextUtils', "textutils");
+getRepoInfo('pccoe-acm-hacktoberfest-2023', 'GDSC_calculator', "calculator");
+getRepoInfo('pccoe-acm-hacktoberfest-2023', 'GDSC_Insta_Bot', "insta");
+getRepoInfo('pccoe-acm-hacktoberfest-2023', 'GDSC_tic_tac_toe', "tic");
+getRepoInfo('pccoe-acm-hacktoberfest-2023', 'GDSC_ecommerce_istop_dummywebsite', "ecommerce");
+
+
+
+
+
+
+
+
 
 // Call getOrgInfo to get information about the organization
 getOrgInfo('pccoe-acm-hacktoberfest-2023');
